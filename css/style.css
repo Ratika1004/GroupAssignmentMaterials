@@ -11,39 +11,36 @@ body {
     display: block;
     place-items: center;
     position: relative;
-
 }
 h1 {
-    font-size: 100px;
-    color: white;
+    font-size: 60px;
+    color: rgb(248, 198, 64);
     font-weight: 900;
     /* background-color: antiquewhite; */
-    top: 2%;
-    position: absolute;
-    right: 50%;
-    left: 35%;
+    margin:0 auto;
+    text-align: center;
 }
 .container {
     /*background-color:*/
     position: absolute;
     width: 50%;
-    
     border-spacing: 10px;
     border: 1px solid black;
     background-color: black;
     right: 25%;
-    top: 15%;
+    top: 7%;
 
 }
 
 .container tr, .container th, .container td {
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(24, 16, 163);
     border: 4px solid rgb(248, 198, 64);
     color: rgb(248, 198, 64);
     font-size: 30px;
     text-align: center;
     font-weight: 700;
+    width: 200px;
 }
 th:hover , td:hover {
     cursor: pointer;
@@ -61,10 +58,10 @@ input[type="text"] {
     border: 1px solid black;
     background-color: black;
     right: 25%;
-    bottom: 5%;
+    bottom: 0%;
 }
 
-.contestant {
+#contestant1, #contestant2, #contestant3 {
     padding: 20px;
     background-color: rgb(24, 16, 163);
     border: 4px solid rgb(248, 198, 64);
@@ -74,18 +71,48 @@ input[type="text"] {
     font-weight: 700;
 }
 
-#userName{
+#userName1, #userName2, #userName3 {
     width: 300px; 
     height: 40px;
     font-size: large;
     text-align: center;
     border-radius: 5px;
+    margin-left: 20px;
 }
 
-.PlayerNumber {
+#PlayerNumber1, #PlayerNumber2, #PlayerNumber3 {
     background-color: yellow;
     margin-left: 10px;
-    padding: 10px;
+    padding: 5px;
     border: solid black 2px;
+    font-size: 20px;
+}
+
+#QuestionBox {
+    border: solid black 2px;
+    background-color: white;
+    opacity: 70%;
+    margin-top: 210px;
+    height: 100px;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    padding: 30px;
+}
+
+#clear {
+    margin:auto;
+    display: block;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.score button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
     font-size: 20px;
 }

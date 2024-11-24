@@ -11,45 +11,64 @@
     <h1>JEOPARDY</h1>
     <table class="container">
         <tr>
-            <th id="topic1">Topic 1</th>
-            <th id="topic2">Topic 2</th>
-            <th id="topic3">Topic 3</th>
+            <th id="topic1">Movies</th>
+            <th id="topic2">Sports</th>
+            <th id="topic3">Food</th>
         </tr>
 
         <tr>
-            <td id="topic1_question1">$200</td>
-            <td id="topic2_question1">$200</td>
-            <td id="topic3_question1">$200</td>
+            <td id="topic1_question1">$200<br><button id="Button1">Show Question</button></td>
+            <td id="topic2_question1">$200<br><button id="Button4">Show Question</button></td>
+            <td id="topic3_question1">$200<br><button id="Button7">Show Question</button></td>
         </tr>
         
         <tr>
-            <td id="topic1_question2">$500</td>
-            <td id="topic2_question2">$500</td>
-            <td id="topic3_question2">$500</td>
-            
+            <td id="topic1_question2">$400<br><button id="Button2">Show Question</button></td>
+            <td id="topic2_question2">$400<br><button id="Button5">Show Question</button></td>
+            <td id="topic3_question2">$400<br><button id="Button8">Show Question</button></td>
         </tr>
 
         <tr>
-            <td id="topic1_question3">$700</td>
-            <td id="topic2_question3">$700</td>
-            <td id="topic3_question3">$700</td>
-           
+            <td id="topic1_question3">$600<br><button id="Button3">Show Question</button></td>
+            <td id="topic2_question3">$600<br><button id="Button6">Show Question</button></td>
+            <td id="topic3_question3">$600<br><button id="Button9">Show Question</button></td> 
         </tr>
-     
-       
     </table>
 
     <table class="score">
         <tr>
-            <td class="contestant">PLAYER 1: <br> Score: </td>
-            <td class="contestant">PLAYER 2: <br> Score: </td>
-            <td class="contestant">PLAYER 3: <br> Score: </td>
+            <td id="contestant1">PLAYER 1: <br><p id="PlaceHolder1"></p> Score: <br>
+                <button id="+200Player1">+200</button><button id="+400Player1">+400</button><button id="+600Player1">+600</button></td>
+            <td id="contestant2">PLAYER 2: <br><p id="PlaceHolder2"></p> Score: <br>
+                <button id="+200Player2">+200</button><button id="+400Player2">+400</button><button id="+600Player2">+600</button></td>
+            <td id="contestant3">PLAYER 3: <br><p id="PlaceHolder3"></p> Score: <br>
+                <button id="+200Player3">+200</button><button id="+400Player3">+400</button><button id="+600Player3">+600</button></td>
         </tr>
     </table>
     <div>
-        <input type="text" id="userName" placeholder="Enter your name"><span class="PlayerNumber">Player One</span><br>
-        <input type="text" id="userName" placeholder="Enter your name"><span class="PlayerNumber">Player Two</span><br>
-        <input type="text" id="userName" placeholder="Enter your name"><span class="PlayerNumber"> Player Three</span>
+        <input type="text" id="userName1" placeholder="Enter your name">
+        <span id="PlayerNumber1">
+            <button id="PlayerOneButton">Player One</button>
+        </span>
+        <br>
+        <input type="text" id="userName2" placeholder="Enter your name">
+        <span id="PlayerNumber2">
+            <button id="PlayerTwoButton">Player Two</button>
+        </span>
+        <br>
+        <input type="text" id="userName3" placeholder="Enter your name">
+        <span id="PlayerNumber3">
+            <button id="PlayerThreeButton">Player Three</button>
+        </span>
+        <br>
+    </div>
+    <div>
+        <p id="QuestionBox">
+            
+        </p>
+    </div>
+    <div>
+        <button id="clear">Clear</button>
     </div>
 
    <script src="/js/script.js"></script>
