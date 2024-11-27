@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 h1 {
-    font-size: 60px;
+    font-size: 48px;
     color: rgb(248, 198, 64);
     font-weight: 900;
     /* background-color: antiquewhite; */
@@ -29,6 +29,7 @@ h1 {
     background-color: black;
     right: 25%;
     top: 7%;
+    height:50%
 
 }
 
@@ -53,16 +54,16 @@ input[type="text"] {
 .score{
     /*background-color:*/
     position: absolute;
-    width: 50%;
+    width: 100%;
     border-spacing: 10px;
     border: 1px solid black;
     background-color: black;
-    right: 25%;
     bottom: 0%;
+    margin:0 auto;
 }
 
 #contestant1, #contestant2, #contestant3 {
-    padding: 20px;
+    padding: 5px;
     background-color: rgb(24, 16, 163);
     border: 4px solid rgb(248, 198, 64);
     color: rgb(248, 198, 64);
@@ -72,7 +73,7 @@ input[type="text"] {
 }
 
 #userName1, #userName2, #userName3 {
-    width: 300px; 
+    width: 150px; 
     height: 40px;
     font-size: large;
     text-align: center;
@@ -90,24 +91,24 @@ input[type="text"] {
 
 #QuestionBox {
     border: solid black 2px;
-    background-color: white;
-    opacity: 70%;
-    margin-top: 210px;
-    height: 100px;
-    width: 50%;
+    background-color: rgb(24, 16, 163);
+    color: white;
+    opacity: 100%;
+    height: 40px;
+    width: 45%;
     margin-left:auto;
     margin-right: auto;
     text-align: center;
     font-size: 24px;
-    padding: 30px;
+    padding: 10px;
 }
 
 #clear {
-    margin:auto;
-    display: block;
     margin-top: 15px;
+    margin-bottom: 200px;
     padding: 10px;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .score button {
